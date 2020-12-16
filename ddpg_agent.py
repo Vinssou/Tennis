@@ -19,7 +19,7 @@ WEIGHT_DECAY = 0.0      # L2 weight decay
 
 EXPLORATION_DECAY = 0.999999
 EXPLORATION_MIN = 0.01
-LEARN_FREQUENCY = 20*20
+LEARN_FREQUENCY = 20
 LEARN_COUNT = 10
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
